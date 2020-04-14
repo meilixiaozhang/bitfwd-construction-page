@@ -54,38 +54,20 @@ body {
   padding: 3%;
 }
 
-/* @media (max-width: 1007px) {
-  .big-title {
-    font-size: 4rem;
-  }
-
-  .logo {
-    width: 3rem;
-  }
-}
-
 @media (max-width: 640px) {
   .title {
-    padding: 5% 0;
-  }
-
-  .big-title {
-    font-size: 3rem;
-  }
-
-  .logo {
-    width: 2rem;
-  }
-
-  .logo-text {
-    font-size: 1rem;
+    padding: 10% 0;
   }
 
   .title-text {
     padding: 10% 0;
   }
 
+  .social-icons {
+    padding: 10% 0;
+  }
+
   .icon {
     width: 20px;
   }
-} */
+}
