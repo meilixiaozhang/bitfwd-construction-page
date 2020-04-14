@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background: linear-gradient(#070247 20%, #ff337a);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-color: #070247;
+  text-align: left;
+}
+
+.logo {
+  width: 5rem;
+  margin-left: 75px;
+  margin-top: 40px;
+  vertical-align: middle;
+}
+
+.logo-text {
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 50px;
+  padding: 0 1%;
+  vertical-align: middle;
+}
+
+.title {
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+}
+
+.big-title {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.title-text {
+  margin: 3% 15%;
+}
+
+.icon {
+  width: 30px;
+  margin: 10px;
+}
+
+.social-icons {
+  margin: 3% 15%;
+}
+
+.footer {
+  background-color: #070247;
+  padding: 3%;
+}
+
+@media (max-width: 1007px) {
+  .big-title {
+    font-size: 4rem;
+  }
+
+  .logo {
+    width: 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    padding: 5% 0;
+  }
+
+  .big-title {
+    font-size: 3rem;
+  }
+
+  .logo {
+    width: 2rem;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+  }
+
+  .title-text {
+    padding: 10% 0;
+  }
+
+  .icon {
+    width: 20px;
+  }
+}
