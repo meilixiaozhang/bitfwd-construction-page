@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  align-items: center;
+  margin: 0;
+}
+
+.fa {
+  color: white;
+}
+
+.logo-div {
+  margin: 0;
+  text-align: right;
+}
+
+.logo {
+  margin-right: 8%;
+}
+
+.top {
+  max-width: 50%;
+  margin: auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.bottom {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social {
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 25px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .top {
+    max-width: 70%;
+    margin: 20% auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bottom {
+    margin-top: 30%;
+  }
+}
