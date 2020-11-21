@@ -51,4 +51,8 @@ body {
   .bottom {
     margin-top: 30%;
   }
+
+  .logo {
+    width: 50px;
+  }
 }
