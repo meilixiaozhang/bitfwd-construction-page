@@ -1,0 +1,63 @@
+body {
+  margin-top: 0;
+  background-color: #130541;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-size: 21vw;
+  line-height: 345px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  margin-top: -28vw;
+}
+
+.title {
+  font-size: 6vw;
+  font-weight: 700;
+  font-family: "Helvetica";
+  font-style: normal;
+  line-height: 8vw;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.title2 {
+  margin-top: 0;
+}
+
+.arror {
+  position: fixed;
+  margin-left: 30px;
+  width: 18vw;
+}
+
+.group {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  span {
+    margin-top: -40vw;
+  }
+
+  .title2 {
+    margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  span {
+    margin-top: -50vw;
+  }
+}
